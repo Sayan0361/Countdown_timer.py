@@ -21,7 +21,7 @@ class Countdown(tk.Frame):
 
 
     ''' Showing Widgets'''
-    '''pack will organise the widgets in blocks before placing it in the parent widget '''
+    '''The pack() function will basically organise the widgets in blocks before placing it in the parent widget '''
     def show_widgets(self):
         self.label.pack()
         self.entry.pack()
@@ -63,7 +63,7 @@ class Countdown(tk.Frame):
         self.seconds_left=0
         self.stop_timer()
         self._timer_on=False
-        self.label["text"]="Enter the time in seconds : - "
+        self.label["text"]="ENTER THE TIME IN SECONDS : - "
         self.stop.forget()
         self.reset.forget()
         self.pause.forget()
@@ -125,7 +125,7 @@ class Countdown(tk.Frame):
 
     '''Quit Button function'''
     def quit_button(self):
-        if tk.messagebox.askokcancel("QUIT", " DO YOU WANT TO QUIT ? "):
+        if tk.messagebox.askokcancel("QUIT", " WOULD YOU LIKE TO QUIT ? "):
             root.destroy()
 
 
