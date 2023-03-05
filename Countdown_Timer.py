@@ -35,7 +35,7 @@ class Countdown(tk.Frame):
 
     ''' Creating Widgets and adding buttons '''
     def create_widgets(self):
-        self.label=tk.Label(self,text="Enter the time in seconds :- ",font=("times new roman",16,"bold"),width=25,bg='CadetBlue1')
+        self.label=tk.Label(self,text="ENTER THE TIME IN SECONDS :- ",font=("times new roman",16,"bold"),width=25,bg='CadetBlue1')
         self.entry=tk.Entry(self,justify="center")
         self.entry.focus_set()
         self.reset=tk.Button(self,text="RESET",command=self.reset_button,cursor="hand2",font=("times new roman",16,"bold"),width=8,bg='CadetBlue1')
