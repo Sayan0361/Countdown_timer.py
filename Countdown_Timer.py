@@ -1,9 +1,3 @@
-''' Python Minor Project '''
-
-''' Create a CountDown Timer using Python 
-   Features to include reset, stop , resume , pause '''
-
-
 import datetime                         # to work with date and time    
 import tkinter as tk                    # for GUI   
 from tkinter import messagebox as msg   # for messagebox
